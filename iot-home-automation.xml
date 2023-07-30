@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\git_repos\fridge-thread-alarm\fridge-thread-alarm.kicad_sch</source>
+    <date>2023-07-29 21:26:22</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>fridge-thread-alarm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B1">
+      <value>BU2032SM-JJ-GTR</value>
+      <footprint>BU2032SM-JJ-GTR:BU2032SM-JJ-GTR_MPD</footprint>
+      <datasheet>BU2032SM-JJ-GTR</datasheet>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/mpd-memory-protection-devices/BU2032-1-HD-G/755445</field>
+      </fields>
+      <libsource lib="BU2032SM-JJ-GTR" part="BU2032SM-JJ-GTR" description=""/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/mpd-memory-protection-devices/BU2032-1-HD-G/755445"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_keywords" value="BU2032SM-JJ-GTR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bda32df-4387-4d84-b2ed-ef1278a3ed64</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/murata-electronics/GRM033R71A103KA01D/702460</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/murata-electronics/GRM033R71A103KA01D/702460"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d37a834-5a27-458f-a5dd-cfcef21dfd86</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL03A104KQ3NNNC/3886671</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL03A104KQ3NNNC/3886671"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0be241a0-fdcd-4de7-8e6e-0f727a7e5077</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a51ede3-3358-48d2-91fc-3d870687dae8</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f2592a6-5fda-492e-8701-d77b20252c0f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/D5V0L1B2WS.pdf</datasheet>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/diodes-incorporated/D5V0L1B2WS-7/2918767</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/diodes-incorporated/D5V0L1B2WS-7/2918767"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b68673e-3f42-468b-b0c4-3a84a4956baa</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48096e31-435d-435f-81e3-fd425ebd3690</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x08_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8418d54a-3240-48b7-b23e-f0468e5a25c0</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f333d09d-3515-4aa1-8d07-55448de53e47</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09295259-c206-41fb-a3eb-3c3c349bc98b</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03565d95-c5d0-4d2b-a1dd-fe7a84d2db60</tstamps>
+    </comp>
+    <comp ref="LS1">
+      <value>AI-1223-TWT-3V-2-R</value>
+      <footprint>AI-1223-TWT-3V-2-R:XDCR_AI-1223-TWT-3V-2-R</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/pui-audio-inc/AI-1223-TWT-3V-2-R/5011391</field>
+      </fields>
+      <libsource lib="AI-1223-TWT-3V-2-R" part="AI-1223-TWT-3V-2-R" description=""/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/pui-audio-inc/AI-1223-TWT-3V-2-R/5011391"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9f52a84-1b44-4f7d-b397-30433afa638b</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PMOS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-723</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">PMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="PMOS" description="P-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="PMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="P-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc969e55-e79f-4657-ae83-cb525c0e6620</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710KL/726880</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9d0dda9-8803-4e46-827e-8c373f9d87ae</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710KL/726880</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9eebd51-e645-44c6-b372-e0e0b36a56b0</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/yageo/RC0603JR-07220KL/726742</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603JR-07220KL/726742"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fd544bd-e7c3-4bed-b201-53feb9a6db92</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>220K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/yageo/RC0603JR-07220KL/726742</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603JR-07220KL/726742"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a876f680-2ba5-44f7-ad1c-1b74e3486ac4</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0720KL/727040</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0720KL/727040"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98f9a551-34eb-4299-970e-9c00f7d11a0d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710KL/726880</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67e07fce-9623-4623-8030-09ed3f9e8fbe</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_SPDT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Link">Any microswitch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push_SPDT" description="Momentary Switch, single pole double throw"/>
+      <property name="Link" value="Any microswitch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Momentary Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f92132a-d60c-4d7c-ad07-5e7bb2829345</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>3.3K@25C</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/29049/ntcle100.pdf</datasheet>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/vishay-beyschlag-draloric-bc-components/NTCLE100E3332JB0/769417</field>
+      </fields>
+      <libsource lib="Device" part="Thermistor" description="Temperature dependent resistor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/vishay-beyschlag-draloric-bc-components/NTCLE100E3332JB0/769417"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Temperature dependent resistor"/>
+      <property name="ki_keywords" value="R res thermistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bad3cc2-57b6-4fef-9482-a55f2b7a0f35</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32WB5MMGH6TR</value>
+      <footprint>STM32WB5MMGH6TR:XCVR_STM32WB5MMGH6TR</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32wb5mmg.pdf</datasheet>
+      <fields>
+        <field name="Datasheet MCU">https://www.st.com/resource/en/datasheet/stm32wb55vg.pdf</field>
+        <field name="Link">https://www.digikey.ca/en/products/detail/stmicroelectronics/STM32WB5MMGH6TR/13592597?s=N4IgTCBcDaIM4BUCyBmMB1AQgViUg4iALoC%2BQA</field>
+        <field name="Ref manual MCU">https://www.st.com/resource/en/reference_manual/rm0434-multiprotocol-wireless-32bit-mcu-armbased-cortexm4-with-fpu-bluetooth-lowenergy-and-802154-radio-solution-stmicroelectronics.pdf</field>
+      </fields>
+      <libsource lib="STM32WB5MMGH6TR" part="STM32WB5MMGH6TR" description=""/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/stmicroelectronics/STM32WB5MMGH6TR/13592597?s=N4IgTCBcDaIM4BUCyBmMB1AQgViUg4iALoC%2BQA"/>
+      <property name="Datasheet MCU" value="https://www.st.com/resource/en/datasheet/stm32wb55vg.pdf"/>
+      <property name="Ref manual MCU" value="https://www.st.com/resource/en/reference_manual/rm0434-multiprotocol-wireless-32bit-mcu-armbased-cortexm4-with-fpu-bluetooth-lowenergy-and-802154-radio-solution-stmicroelectronics.pdf"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ceb842c-f2dc-478f-a5d4-f63168d0ff55</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SHTC3</value>
+      <footprint>Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm</footprint>
+      <datasheet>https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/sensirion-ag/SHTC3-TR-10KS/9477851</field>
+      </fields>
+      <libsource lib="Sensor_Humidity" part="SHTC3" description="Humidity and Temperature Sensor, +/-2%RH, +/-0.2degC, I2C, 1.62-3.6V, DFN-4"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/sensirion-ag/SHTC3-TR-10KS/9477851"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="Humidity and Temperature Sensor, +/-2%RH, +/-0.2degC, I2C, 1.62-3.6V, DFN-4"/>
+      <property name="ki_keywords" value="Sensirion environment environmental measurement digital"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fce5bc9f-4925-4a19-8285-6959b92d078e</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AP2127K-1.8</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2127.pdf</datasheet>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/diodes-incorporated/AP2127K-1-8TRG1/4470784</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2127K-1.8" description="300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.8V fixed positive output, SOT-23-5"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/diodes-incorporated/AP2127K-1-8TRG1/4470784"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_description" value="300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.8V fixed positive output, SOT-23-5"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2046db9-fe75-40bb-90dd-d31bdd1c0481</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>OPT3001DNPT</value>
+      <footprint>Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
+      <datasheet>OPT3001DNPT</datasheet>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/texas-instruments/OPT3001DNPT/5067022</field>
+      </fields>
+      <libsource lib="OPT3001" part="OPT3001DNPT" description=""/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/texas-instruments/OPT3001DNPT/5067022"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="ki_keywords" value="OPT3001DNPT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>398f08dd-abd5-4ff8-8c45-82dfebd83c6f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AI-1223-TWT-3V-2-R" part="AI-1223-TWT-3V-2-R">
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">AI-1223-TWT-3V-2-R</field>
+        <field name="Footprint">XDCR_AI-1223-TWT-3V-2-R</field>
+        <field name="PARTREV">3/18/2020</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.8 mm</field>
+        <field name="MANUFACTURER">PUI Audio</field>
+      </fields>
+      <pins>
+        <pin num="N" name="" type="passive"/>
+        <pin num="P" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BU2032SM-JJ-GTR" part="BU2032SM-JJ-GTR">
+      <docs>BU2032SM-JJ-GTR</docs>
+      <footprints>
+        <fp>BU2032SM-JJ-GTR_MPD</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">BU2032SM-JJ-GTR</field>
+        <field name="Footprint">BU2032SM-JJ-GTR_MPD</field>
+        <field name="Datasheet">BU2032SM-JJ-GTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Pin">
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor">
+      <description>Temperature dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPT3001" part="OPT3001DNPT">
+      <docs>OPT3001DNPT</docs>
+      <footprints>
+        <fp>DNP0006A</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPT3001DNPT</field>
+        <field name="Footprint">DNP0006A</field>
+        <field name="Datasheet">OPT3001DNPT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="ADDR" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="INT" type="output"/>
+        <pin num="6" name="SDA" type="input"/>
+        <pin num="7" name="PAD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2127K-1.8">
+      <description>300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.8V fixed positive output, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2127.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2127K-1.8</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2127.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="STM32WB5MMGH6TR" part="STM32WB5MMGH6TR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32WB5MMGH6TR</field>
+        <field name="Footprint">XCVR_STM32WB5MMGH6TR</field>
+        <field name="PARTREV">Rev 2</field>
+        <field name="SNAPEDA_PN">STM32WB5MMGH6TR</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.428mm</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA2" type="bidirectional"/>
+        <pin num="2" name="PA1" type="bidirectional"/>
+        <pin num="3" name="PA0" type="bidirectional"/>
+        <pin num="4" name="VREF+" type="power_in"/>
+        <pin num="5" name="VSS_0" type="power_in"/>
+        <pin num="6" name="VDDA" type="power_in"/>
+        <pin num="7" name="PC3" type="bidirectional"/>
+        <pin num="8" name="PC2" type="bidirectional"/>
+        <pin num="9" name="PC1" type="bidirectional"/>
+        <pin num="10" name="NRST" type="input"/>
+        <pin num="11" name="PB9" type="bidirectional"/>
+        <pin num="12" name="PC0" type="bidirectional"/>
+        <pin num="13" name="PH3-BOOT0" type="bidirectional"/>
+        <pin num="14" name="PB8" type="bidirectional"/>
+        <pin num="15" name="VBAT" type="power_in"/>
+        <pin num="16" name="VSS" type="power_in"/>
+        <pin num="17" name="VDD" type="power_in"/>
+        <pin num="18" name="PB7" type="bidirectional"/>
+        <pin num="19" name="PB5" type="bidirectional"/>
+        <pin num="20" name="PB4" type="bidirectional"/>
+        <pin num="21" name="PB3" type="bidirectional"/>
+        <pin num="22" name="PC10" type="bidirectional"/>
+        <pin num="23" name="PC11" type="bidirectional"/>
+        <pin num="24" name="PC12" type="bidirectional"/>
+        <pin num="25" name="PA13" type="bidirectional"/>
+        <pin num="26" name="PA14" type="bidirectional"/>
+        <pin num="27" name="PA15" type="bidirectional"/>
+        <pin num="28" name="PA10" type="bidirectional"/>
+        <pin num="29" name="PA12" type="bidirectional"/>
+        <pin num="30" name="PA11" type="bidirectional"/>
+        <pin num="31" name="VSS_1" type="power_in"/>
+        <pin num="32" name="VDDUSB" type="power_in"/>
+        <pin num="33" name="PD0" type="bidirectional"/>
+        <pin num="34" name="PD1" type="bidirectional"/>
+        <pin num="35" name="PB13" type="bidirectional"/>
+        <pin num="36" name="PC6" type="bidirectional"/>
+        <pin num="37" name="PB14" type="bidirectional"/>
+        <pin num="38" name="PB15" type="bidirectional"/>
+        <pin num="39" name="PB6" type="bidirectional"/>
+        <pin num="40" name="PC13" type="bidirectional"/>
+        <pin num="41" name="PB12" type="bidirectional"/>
+        <pin num="42" name="PE4" type="bidirectional"/>
+        <pin num="43" name="PB0" type="no_connect"/>
+        <pin num="44" name="PB1" type="no_connect"/>
+        <pin num="45" name="PC5" type="bidirectional"/>
+        <pin num="46" name="PB11" type="bidirectional"/>
+        <pin num="47" name="PB10" type="bidirectional"/>
+        <pin num="48" name="PB2" type="bidirectional"/>
+        <pin num="49" name="PC4" type="bidirectional"/>
+        <pin num="50" name="PA8" type="bidirectional"/>
+        <pin num="51" name="PA9" type="bidirectional"/>
+        <pin num="52" name="PA7" type="bidirectional"/>
+        <pin num="53" name="PA6" type="bidirectional"/>
+        <pin num="54" name="PA5" type="bidirectional"/>
+        <pin num="55" name="PA4" type="bidirectional"/>
+        <pin num="56" name="PA3" type="bidirectional"/>
+        <pin num="57" name="VSS_2" type="power_in"/>
+        <pin num="58" name="ANT_IN" type="input"/>
+        <pin num="59" name="RF_OUT" type="output"/>
+        <pin num="60" name="VSS_3" type="power_in"/>
+        <pin num="61" name="PH0" type="bidirectional"/>
+        <pin num="62" name="PH1" type="bidirectional"/>
+        <pin num="63" name="PD14" type="bidirectional"/>
+        <pin num="64" name="PE1" type="bidirectional"/>
+        <pin num="65" name="PD13" type="bidirectional"/>
+        <pin num="66" name="PD12" type="bidirectional"/>
+        <pin num="67" name="PD7" type="bidirectional"/>
+        <pin num="68" name="PD2" type="bidirectional"/>
+        <pin num="69" name="PC9" type="bidirectional"/>
+        <pin num="70" name="PD3" type="bidirectional"/>
+        <pin num="71" name="PC7" type="bidirectional"/>
+        <pin num="72" name="PE3" type="bidirectional"/>
+        <pin num="73" name="PD4" type="bidirectional"/>
+        <pin num="74" name="PD9" type="bidirectional"/>
+        <pin num="75" name="PD8" type="bidirectional"/>
+        <pin num="76" name="PD15" type="bidirectional"/>
+        <pin num="77" name="PD10" type="bidirectional"/>
+        <pin num="78" name="PE2" type="bidirectional"/>
+        <pin num="79" name="PE0" type="bidirectional"/>
+        <pin num="80" name="PD5" type="bidirectional"/>
+        <pin num="81" name="PD6" type="bidirectional"/>
+        <pin num="82" name="PD11" type="bidirectional"/>
+        <pin num="83" name="PC8" type="bidirectional"/>
+        <pin num="84" name="VSS_4" type="power_in"/>
+        <pin num="85" name="ANT_NC" type="passive"/>
+        <pin num="86" name="VSS_5" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Humidity" part="SHTC3">
+      <description>Humidity and Temperature Sensor, +/-2%RH, +/-0.2degC, I2C, 1.62-3.6V, DFN-4</description>
+      <docs>https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf</docs>
+      <footprints>
+        <fp>Sensirion*DFN*1EP*2x2mm*P1mm*EP0.7x1.6mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SHTC3</field>
+        <field name="Footprint">Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm</field>
+        <field name="Datasheet">https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="PMOS">
+      <description>P-MOSFET transistor, drain/source/gate</description>
+      <docs>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMOS</field>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</field>
+        <field name="Sim.Device">PMOS</field>
+        <field name="Sim.Type">VDMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_SPDT">
+      <description>Momentary Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AI-1223-TWT-3V-2-R">
+      <uri>D:\git_repos\fridge-thread-alarm/libs/AI-1223-TWT-3V-2-R/AI-1223-TWT-3V-2-R.kicad_sym</uri>
+    </library>
+    <library logical="BU2032SM-JJ-GTR">
+      <uri>D:\git_repos\fridge-thread-alarm/libs/BU2032SM-JJ-GTR/BU2032SM-JJ-GTR.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="OPT3001">
+      <uri>D:\git_repos\fridge-thread-alarm/libs/OPT3001/OPT3001.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="STM32WB5MMGH6TR">
+      <uri>D:\git_repos\fridge-thread-alarm/libs/STM32WB5MMGH6TR/STM32WB5MMGH6TR.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Humidity">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Humidity.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Simulation_SPICE.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V8">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U4" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V0">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="17" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VREF+" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="B1" pin="2" pintype="unspecified"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Door_EXTI">
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/LDO_EN">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="PC6" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="6" name="/MCU_RX1">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/MCU_TX1">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="51" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/NRST">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="9" name="/PB3">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/PD1">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/SCL1">
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="PB6" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="SCL" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="12" name="/SDA1">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PB7" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="SDA" pintype="input"/>
+    </net>
+    <net code="13" name="/SWCLK">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/SWDIO">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Vtherm">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="TH1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/nBuzzer">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="B1" pin="1" pintype="unspecified"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="LS1" pin="N" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="31" pinfunction="VSS_1" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="VDDUSB" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="VSS_0" pintype="power_in"/>
+      <node ref="U1" pin="57" pinfunction="VSS_2" pintype="power_in"/>
+      <node ref="U1" pin="58" pinfunction="ANT_IN" pintype="input"/>
+      <node ref="U1" pin="59" pinfunction="RF_OUT" pintype="output"/>
+      <node ref="U1" pin="60" pinfunction="VSS_3" pintype="power_in"/>
+      <node ref="U1" pin="84" pinfunction="VSS_4" pintype="power_in"/>
+      <node ref="U1" pin="86" pinfunction="VSS_5" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="ADDR" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="PAD" pintype="unspecified"/>
+    </net>
+    <net code="18" name="Net-(Q1-D)">
+      <node ref="LS1" pin="P" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(U4-INT)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="INT" pintype="output"/>
+    </net>
+    <net code="20" name="unconnected-(U1-ANT_NC-Pad85)">
+      <node ref="U1" pin="85" pinfunction="ANT_NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-PA1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(U1-PA2-Pad1)">
+      <node ref="U1" pin="1" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(U1-PA3-Pad56)">
+      <node ref="U1" pin="56" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(U1-PA4-Pad55)">
+      <node ref="U1" pin="55" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(U1-PA5-Pad54)">
+      <node ref="U1" pin="54" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(U1-PA6-Pad53)">
+      <node ref="U1" pin="53" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(U1-PA7-Pad52)">
+      <node ref="U1" pin="52" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(U1-PA8-Pad50)">
+      <node ref="U1" pin="50" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(U1-PA11-Pad30)">
+      <node ref="U1" pin="30" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(U1-PA12-Pad29)">
+      <node ref="U1" pin="29" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U1-PA15-Pad27)">
+      <node ref="U1" pin="27" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U1-PB0-Pad43)">
+      <node ref="U1" pin="43" pinfunction="PB0" pintype="no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-PB1-Pad44)">
+      <node ref="U1" pin="44" pinfunction="PB1" pintype="no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-PB2-Pad48)">
+      <node ref="U1" pin="48" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(U1-PB5-Pad19)">
+      <node ref="U1" pin="19" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(U1-PB8-Pad14)">
+      <node ref="U1" pin="14" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(U1-PB9-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(U1-PB10-Pad47)">
+      <node ref="U1" pin="47" pinfunction="PB10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-PB11-Pad46)">
+      <node ref="U1" pin="46" pinfunction="PB11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-PB12-Pad41)">
+      <node ref="U1" pin="41" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(U1-PB13-Pad35)">
+      <node ref="U1" pin="35" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(U1-PB14-Pad37)">
+      <node ref="U1" pin="37" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(U1-PB15-Pad38)">
+      <node ref="U1" pin="38" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(U1-PC0-Pad12)">
+      <node ref="U1" pin="12" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(U1-PC1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(U1-PC3-Pad7)">
+      <node ref="U1" pin="7" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="unconnected-(U1-PC4-Pad49)">
+      <node ref="U1" pin="49" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(U1-PC5-Pad45)">
+      <node ref="U1" pin="45" pinfunction="PC5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-PC7-Pad71)">
+      <node ref="U1" pin="71" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="unconnected-(U1-PC8-Pad83)">
+      <node ref="U1" pin="83" pinfunction="PC8" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="unconnected-(U1-PC9-Pad69)">
+      <node ref="U1" pin="69" pinfunction="PC9" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="unconnected-(U1-PC10-Pad22)">
+      <node ref="U1" pin="22" pinfunction="PC10" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="unconnected-(U1-PC11-Pad23)">
+      <node ref="U1" pin="23" pinfunction="PC11" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(U1-PC12-Pad24)">
+      <node ref="U1" pin="24" pinfunction="PC12" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(U1-PC13-Pad40)">
+      <node ref="U1" pin="40" pinfunction="PC13" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(U1-PD0-Pad33)">
+      <node ref="U1" pin="33" pinfunction="PD0" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(U1-PD2-Pad68)">
+      <node ref="U1" pin="68" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="unconnected-(U1-PD3-Pad70)">
+      <node ref="U1" pin="70" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(U1-PD4-Pad73)">
+      <node ref="U1" pin="73" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(U1-PD5-Pad80)">
+      <node ref="U1" pin="80" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(U1-PD6-Pad81)">
+      <node ref="U1" pin="81" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(U1-PD7-Pad67)">
+      <node ref="U1" pin="67" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(U1-PD8-Pad75)">
+      <node ref="U1" pin="75" pinfunction="PD8" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="unconnected-(U1-PD9-Pad74)">
+      <node ref="U1" pin="74" pinfunction="PD9" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="unconnected-(U1-PD10-Pad77)">
+      <node ref="U1" pin="77" pinfunction="PD10" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="unconnected-(U1-PD11-Pad82)">
+      <node ref="U1" pin="82" pinfunction="PD11" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(U1-PD12-Pad66)">
+      <node ref="U1" pin="66" pinfunction="PD12" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(U1-PD13-Pad65)">
+      <node ref="U1" pin="65" pinfunction="PD13" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(U1-PD14-Pad63)">
+      <node ref="U1" pin="63" pinfunction="PD14" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(U1-PD15-Pad76)">
+      <node ref="U1" pin="76" pinfunction="PD15" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="unconnected-(U1-PE0-Pad79)">
+      <node ref="U1" pin="79" pinfunction="PE0" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="unconnected-(U1-PE1-Pad64)">
+      <node ref="U1" pin="64" pinfunction="PE1" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="unconnected-(U1-PE2-Pad78)">
+      <node ref="U1" pin="78" pinfunction="PE2" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="unconnected-(U1-PE3-Pad72)">
+      <node ref="U1" pin="72" pinfunction="PE3" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="unconnected-(U1-PE4-Pad42)">
+      <node ref="U1" pin="42" pinfunction="PE4" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="unconnected-(U1-PH0-Pad61)">
+      <node ref="U1" pin="61" pinfunction="PH0" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(U1-PH1-Pad62)">
+      <node ref="U1" pin="62" pinfunction="PH1" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="unconnected-(U1-PH3-BOOT0-Pad13)">
+      <node ref="U1" pin="13" pinfunction="PH3-BOOT0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U2-NC-Pad5)">
+      <node ref="U2" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U3-NC-Pad4)">
+      <node ref="U3" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
