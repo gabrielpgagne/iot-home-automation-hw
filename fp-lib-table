@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AI-1223-TWT-3V-2-R")(type "KiCad")(uri "${KIPRJMOD}/libs/AI-1223-TWT-3V-2-R")(options "")(descr ""))
+  (lib (name "DMC2700UDM-7")(type "KiCad")(uri "${KIPRJMOD}/libs/DMC2700UDM-7")(options "")(descr ""))
+  (lib (name "MDSR-7-10-20")(type "KiCad")(uri "${KIPRJMOD}/libs/MDSR-7-10-20")(options "")(descr ""))
+  (lib (name "STM32WB5MMGH6TR")(type "KiCad")(uri "${KIPRJMOD}/libs/STM32WB5MMGH6TR")(options "")(descr ""))
+  (lib (name "BU2032SM-JJ-GTR")(type "KiCad")(uri "${KIPRJMOD}/libs/BU2032SM-JJ-GTR")(options "")(descr ""))
+  (lib (name "OPT3001")(type "KiCad")(uri "${KIPRJMOD}/libs/OPT3001")(options "")(descr ""))
+)
