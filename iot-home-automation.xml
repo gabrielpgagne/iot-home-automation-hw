@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>D:\git_repos\fridge-thread-alarm\fridge-thread-alarm.kicad_sch</source>
-    <date>2023-07-29 21:26:22</date>
+    <source>D:\git_repos\iot-home-automation-hw\iot-home-automation.kicad_sch</source>
+    <date>2023-08-19 10:02:47</date>
     <tool>Eeschema 7.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -10,7 +10,7 @@
         <company/>
         <rev/>
         <date/>
-        <source>fridge-thread-alarm.kicad_sch</source>
+        <source>iot-home-automation.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -34,7 +34,7 @@
       <libsource lib="BU2032SM-JJ-GTR" part="BU2032SM-JJ-GTR" description=""/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/mpd-memory-protection-devices/BU2032-1-HD-G/755445"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_keywords" value="BU2032SM-JJ-GTR"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6bda32df-4387-4d84-b2ed-ef1278a3ed64</tstamps>
@@ -48,7 +48,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/murata-electronics/GRM033R71A103KA01D/702460"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,41 +63,71 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL03A104KQ3NNNC/3886671"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0be241a0-fdcd-4de7-8e6e-0f727a7e5077</tstamps>
     </comp>
     <comp ref="C3">
-      <value>1uF</value>
+      <value>10u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604</field>
+        <field name="Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7a51ede3-3358-48d2-91fc-3d870687dae8</tstamps>
+      <tstamps>529e6864-6110-4150-b5b9-92ac2132939d</tstamps>
     </comp>
     <comp ref="C4">
-      <value>1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604</field>
+        <field name="Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL03A104KQ3NNNC/3886671</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL03A104KQ3NNNC/3886671"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3f2592a6-5fda-492e-8701-d77b20252c0f</tstamps>
+      <tstamps>0ccb6c64-27a6-43fb-85d3-121244961348</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3185d33b-b244-40c4-a168-c96685d6fad2</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL03A104KQ3NNNC/3886671</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL03A104KQ3NNNC/3886671"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fe60078-34f2-4ff0-ba22-942c4f8592ec</tstamps>
     </comp>
     <comp ref="D1">
       <value>D_TVS</value>
@@ -109,7 +139,7 @@
       <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/diodes-incorporated/D5V0L1B2WS-7/2918767"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
       <property name="ki_keywords" value="diode TVS thyrector"/>
       <sheetpath names="/" tstamps="/"/>
@@ -120,7 +150,7 @@
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
@@ -131,7 +161,7 @@
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
@@ -142,7 +172,7 @@
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
@@ -153,22 +183,26 @@
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>09295259-c206-41fb-a3eb-3c3c349bc98b</tstamps>
     </comp>
-    <comp ref="J6">
-      <value>Conn_01x02_Pin</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+    <comp ref="L1">
+      <value>10u</value>
+      <footprint>Inductor_SMD:L_Changjiang_FNR6028S</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.ca/en/products/detail/taiyo-yuden/NRS6045T100MMGK/2665984</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/taiyo-yuden/NRS6045T100MMGK/2665984"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
-      <property name="ki_keywords" value="connector"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>03565d95-c5d0-4d2b-a1dd-fe7a84d2db60</tstamps>
+      <tstamps>9ae0b604-29cb-48dc-b7d5-96c973ab70c6</tstamps>
     </comp>
     <comp ref="LS1">
       <value>AI-1223-TWT-3V-2-R</value>
@@ -179,7 +213,7 @@
       <libsource lib="AI-1223-TWT-3V-2-R" part="AI-1223-TWT-3V-2-R" description=""/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/pui-audio-inc/AI-1223-TWT-3V-2-R/5011391"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b9f52a84-1b44-4f7d-b397-30433afa638b</tstamps>
     </comp>
@@ -197,7 +231,7 @@
       <property name="Sim.Type" value="VDMOS"/>
       <property name="Sim.Pins" value="1=D 2=G 3=S"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="P-MOSFET transistor, drain/source/gate"/>
       <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET simulation"/>
       <sheetpath names="/" tstamps="/"/>
@@ -212,7 +246,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -227,7 +261,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -242,26 +276,11 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603JR-07220KL/726742"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1fd544bd-e7c3-4bed-b201-53feb9a6db92</tstamps>
-    </comp>
-    <comp ref="R4">
-      <value>220K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="Link">https://www.digikey.ca/en/products/detail/yageo/RC0603JR-07220KL/726742</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603JR-07220KL/726742"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a876f680-2ba5-44f7-ad1c-1b74e3486ac4</tstamps>
     </comp>
     <comp ref="R5">
       <value>20K</value>
@@ -272,7 +291,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0720KL/727040"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -287,7 +306,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -302,7 +321,7 @@
       <libsource lib="Switch" part="SW_Push_SPDT" description="Momentary Switch, single pole double throw"/>
       <property name="Link" value="Any microswitch"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Momentary Switch, single pole double throw"/>
       <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
       <sheetpath names="/" tstamps="/"/>
@@ -318,7 +337,7 @@
       <libsource lib="Device" part="Thermistor" description="Temperature dependent resistor"/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/vishay-beyschlag-draloric-bc-components/NTCLE100E3332JB0/769417"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Temperature dependent resistor"/>
       <property name="ki_keywords" value="R res thermistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -338,7 +357,7 @@
       <property name="Datasheet MCU" value="https://www.st.com/resource/en/datasheet/stm32wb55vg.pdf"/>
       <property name="Ref manual MCU" value="https://www.st.com/resource/en/reference_manual/rm0434-multiprotocol-wireless-32bit-mcu-armbased-cortexm4-with-fpu-bluetooth-lowenergy-and-802154-radio-solution-stmicroelectronics.pdf"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6ceb842c-f2dc-478f-a5d4-f63168d0ff55</tstamps>
     </comp>
@@ -352,27 +371,27 @@
       <libsource lib="Sensor_Humidity" part="SHTC3" description="Humidity and Temperature Sensor, +/-2%RH, +/-0.2degC, I2C, 1.62-3.6V, DFN-4"/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/sensirion-ag/SHTC3-TR-10KS/9477851"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_description" value="Humidity and Temperature Sensor, +/-2%RH, +/-0.2degC, I2C, 1.62-3.6V, DFN-4"/>
       <property name="ki_keywords" value="Sensirion environment environmental measurement digital"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fce5bc9f-4925-4a19-8285-6959b92d078e</tstamps>
     </comp>
     <comp ref="U3">
-      <value>AP2127K-1.8</value>
+      <value>TPS62202DBV</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/AP2127.pdf</datasheet>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps62201.pdf</datasheet>
       <fields>
-        <field name="Link">https://www.digikey.ca/en/products/detail/diodes-incorporated/AP2127K-1-8TRG1/4470784</field>
+        <field name="Link">https://www.digikey.ca/en/products/detail/texas-instruments/TPS62202DBVT/461342</field>
       </fields>
-      <libsource lib="Regulator_Linear" part="AP2127K-1.8" description="300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.8V fixed positive output, SOT-23-5"/>
-      <property name="Link" value="https://www.digikey.ca/en/products/detail/diodes-incorporated/AP2127K-1-8TRG1/4470784"/>
+      <libsource lib="Regulator_Switching" part="TPS62202DBV" description="300mA High-Efficiency Step-Down DC-DC Converter, fixed 1.8V output voltage, 2.5-6V input voltage, SOT-23-5"/>
+      <property name="Link" value="https://www.digikey.ca/en/products/detail/texas-instruments/TPS62202DBVT/461342"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
-      <property name="ki_description" value="300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.8V fixed positive output, SOT-23-5"/>
-      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
+      <property name="ki_description" value="300mA High-Efficiency Step-Down DC-DC Converter, fixed 1.8V output voltage, 2.5-6V input voltage, SOT-23-5"/>
+      <property name="ki_keywords" value="Step-Down DC-DC Converter"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d2046db9-fe75-40bb-90dd-d31bdd1c0481</tstamps>
+      <tstamps>1d2320d4-8122-4c44-a9b9-a7630a0aea1f</tstamps>
     </comp>
     <comp ref="U4">
       <value>OPT3001DNPT</value>
@@ -384,7 +403,7 @@
       <libsource lib="OPT3001" part="OPT3001DNPT" description=""/>
       <property name="Link" value="https://www.digikey.ca/en/products/detail/texas-instruments/OPT3001DNPT/5067022"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="fridge-thread-alarm.kicad_sch"/>
+      <property name="Sheetfile" value="iot-home-automation.kicad_sch"/>
       <property name="ki_keywords" value="OPT3001DNPT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>398f08dd-abd5-4ff8-8c45-82dfebd83c6f</tstamps>
@@ -544,6 +563,25 @@
         <pin num="2" name="A2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -597,24 +635,24 @@
         <pin num="7" name="PAD" type="unspecified"/>
       </pins>
     </libpart>
-    <libpart lib="Regulator_Linear" part="AP2127K-1.8">
-      <description>300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.8V fixed positive output, SOT-23-5</description>
-      <docs>https://www.diodes.com/assets/Datasheets/AP2127.pdf</docs>
+    <libpart lib="Regulator_Switching" part="TPS62202DBV">
+      <description>300mA High-Efficiency Step-Down DC-DC Converter, fixed 1.8V output voltage, 2.5-6V input voltage, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps62201.pdf</docs>
       <footprints>
-        <fp>SOT?23?5*</fp>
+        <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">AP2127K-1.8</field>
+        <field name="Value">TPS62202DBV</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2127.pdf</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps62201.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="1" name="VI" type="power_in"/>
         <pin num="2" name="GND" type="power_in"/>
         <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="NC" type="no_connect"/>
-        <pin num="5" name="VOUT" type="power_out"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="SW" type="output"/>
       </pins>
     </libpart>
     <libpart lib="STM32WB5MMGH6TR" part="STM32WB5MMGH6TR">
@@ -771,10 +809,10 @@
   </libparts>
   <libraries>
     <library logical="AI-1223-TWT-3V-2-R">
-      <uri>D:\git_repos\fridge-thread-alarm/libs/AI-1223-TWT-3V-2-R/AI-1223-TWT-3V-2-R.kicad_sym</uri>
+      <uri>D:\git_repos\iot-home-automation-hw/libs/AI-1223-TWT-3V-2-R/AI-1223-TWT-3V-2-R.kicad_sym</uri>
     </library>
     <library logical="BU2032SM-JJ-GTR">
-      <uri>D:\git_repos\fridge-thread-alarm/libs/BU2032SM-JJ-GTR/BU2032SM-JJ-GTR.kicad_sym</uri>
+      <uri>D:\git_repos\iot-home-automation-hw/libs/BU2032SM-JJ-GTR/BU2032SM-JJ-GTR.kicad_sym</uri>
     </library>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
@@ -786,13 +824,13 @@
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="OPT3001">
-      <uri>D:\git_repos\fridge-thread-alarm/libs/OPT3001/OPT3001.kicad_sym</uri>
+      <uri>D:\git_repos\iot-home-automation-hw/libs/OPT3001/OPT3001.kicad_sym</uri>
     </library>
-    <library logical="Regulator_Linear">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
     </library>
     <library logical="STM32WB5MMGH6TR">
-      <uri>D:\git_repos\fridge-thread-alarm/libs/STM32WB5MMGH6TR/STM32WB5MMGH6TR.kicad_sym</uri>
+      <uri>D:\git_repos\iot-home-automation-hw/libs/STM32WB5MMGH6TR/STM32WB5MMGH6TR.kicad_sym</uri>
     </library>
     <library logical="Sensor_Humidity">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Humidity.kicad_sym</uri>
@@ -805,74 +843,43 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+1V8">
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
-      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
-      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="U2" pin="1" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U3" pin="5" pinfunction="VOUT" pintype="power_out"/>
-      <node ref="U4" pin="1" pinfunction="VDD" pintype="power_in"/>
-    </net>
-    <net code="2" name="+3V0">
-      <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
-      <node ref="U1" pin="15" pinfunction="VBAT" pintype="power_in"/>
-      <node ref="U1" pin="17" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U1" pin="4" pinfunction="VREF+" pintype="power_in"/>
-      <node ref="U1" pin="6" pinfunction="VDDA" pintype="power_in"/>
-      <node ref="U3" pin="1" pinfunction="VIN" pintype="power_in"/>
-    </net>
-    <net code="3" name="+BATT">
+    <net code="1" name="+BATT">
       <node ref="B1" pin="2" pintype="unspecified"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="4" name="/Door_EXTI">
+    <net code="2" name="/Door_EXTI">
+      <node ref="C6" pin="1" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="PC2" pintype="bidirectional"/>
     </net>
-    <net code="5" name="/LDO_EN">
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U1" pin="36" pinfunction="PC6" pintype="bidirectional"/>
-      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+    <net code="3" name="/LIGHT_IRQ">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PB5" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="INT" pintype="output"/>
     </net>
-    <net code="6" name="/MCU_RX1">
-      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    <net code="4" name="/MCU_RX1">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="28" pinfunction="PA10" pintype="bidirectional"/>
     </net>
-    <net code="7" name="/MCU_TX1">
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="5" name="/MCU_TX1">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="51" pinfunction="PA9" pintype="bidirectional"/>
     </net>
-    <net code="8" name="/NRST">
+    <net code="6" name="/NRST">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="NRST" pintype="input"/>
     </net>
-    <net code="9" name="/PB3">
-      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    <net code="7" name="/PB3">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="21" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="10" name="/PD1">
-      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    <net code="8" name="/PD1">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="34" pinfunction="PD1" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/SCL1">
+    <net code="9" name="/SCL1">
       <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
@@ -882,7 +889,7 @@
       <node ref="U2" pin="2" pinfunction="SCL" pintype="input"/>
       <node ref="U4" pin="4" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="12" name="/SDA1">
+    <net code="10" name="/SDA1">
       <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
@@ -892,31 +899,38 @@
       <node ref="U2" pin="3" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="U4" pin="6" pinfunction="SDA" pintype="input"/>
     </net>
-    <net code="13" name="/SWCLK">
+    <net code="11" name="/SWCLK">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/SWDIO">
+    <net code="12" name="/SWDIO">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="25" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/Vtherm">
+    <net code="13" name="/VDD_THERM">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Vtherm">
+      <node ref="C4" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="TH1" pin="1" pintype="passive"/>
-      <node ref="U1" pin="20" pinfunction="PB4" pintype="bidirectional"/>
+      <node ref="U1" pin="12" pinfunction="PC0" pintype="bidirectional"/>
     </net>
-    <net code="16" name="/nBuzzer">
+    <net code="15" name="/nBuzzer">
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="PA0" pintype="bidirectional"/>
     </net>
-    <net code="17" name="GND">
+    <net code="16" name="GND">
       <node ref="B1" pin="1" pintype="unspecified"/>
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
@@ -925,7 +939,6 @@
       <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="LS1" pin="N" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="TH1" pin="2" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="VSS" pintype="power_in"/>
@@ -944,64 +957,92 @@
       <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U4" pin="7" pinfunction="PAD" pintype="unspecified"/>
     </net>
-    <net code="18" name="Net-(Q1-D)">
+    <net code="17" name="Net-(Q1-D)">
       <node ref="LS1" pin="P" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(U4-INT)">
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="U4" pin="5" pinfunction="INT" pintype="output"/>
+    <net code="18" name="Net-(U3-SW)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="SW" pintype="output"/>
     </net>
-    <net code="20" name="unconnected-(U1-ANT_NC-Pad85)">
+    <net code="19" name="VCC">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VI" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="20" name="VDD">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="17" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VREF+" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="FB" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="21" name="unconnected-(U1-ANT_NC-Pad85)">
       <node ref="U1" pin="85" pinfunction="ANT_NC" pintype="passive+no_connect"/>
     </net>
-    <net code="21" name="unconnected-(U1-PA1-Pad2)">
+    <net code="22" name="unconnected-(U1-PA1-Pad2)">
       <node ref="U1" pin="2" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="22" name="unconnected-(U1-PA2-Pad1)">
+    <net code="23" name="unconnected-(U1-PA2-Pad1)">
       <node ref="U1" pin="1" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="23" name="unconnected-(U1-PA3-Pad56)">
+    <net code="24" name="unconnected-(U1-PA3-Pad56)">
       <node ref="U1" pin="56" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="24" name="unconnected-(U1-PA4-Pad55)">
+    <net code="25" name="unconnected-(U1-PA4-Pad55)">
       <node ref="U1" pin="55" pinfunction="PA4" pintype="bidirectional"/>
     </net>
-    <net code="25" name="unconnected-(U1-PA5-Pad54)">
+    <net code="26" name="unconnected-(U1-PA5-Pad54)">
       <node ref="U1" pin="54" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="26" name="unconnected-(U1-PA6-Pad53)">
+    <net code="27" name="unconnected-(U1-PA6-Pad53)">
       <node ref="U1" pin="53" pinfunction="PA6" pintype="bidirectional"/>
     </net>
-    <net code="27" name="unconnected-(U1-PA7-Pad52)">
+    <net code="28" name="unconnected-(U1-PA7-Pad52)">
       <node ref="U1" pin="52" pinfunction="PA7" pintype="bidirectional"/>
     </net>
-    <net code="28" name="unconnected-(U1-PA8-Pad50)">
+    <net code="29" name="unconnected-(U1-PA8-Pad50)">
       <node ref="U1" pin="50" pinfunction="PA8" pintype="bidirectional"/>
     </net>
-    <net code="29" name="unconnected-(U1-PA11-Pad30)">
+    <net code="30" name="unconnected-(U1-PA11-Pad30)">
       <node ref="U1" pin="30" pinfunction="PA11" pintype="bidirectional"/>
     </net>
-    <net code="30" name="unconnected-(U1-PA12-Pad29)">
+    <net code="31" name="unconnected-(U1-PA12-Pad29)">
       <node ref="U1" pin="29" pinfunction="PA12" pintype="bidirectional"/>
     </net>
-    <net code="31" name="unconnected-(U1-PA15-Pad27)">
+    <net code="32" name="unconnected-(U1-PA15-Pad27)">
       <node ref="U1" pin="27" pinfunction="PA15" pintype="bidirectional"/>
     </net>
-    <net code="32" name="unconnected-(U1-PB0-Pad43)">
+    <net code="33" name="unconnected-(U1-PB0-Pad43)">
       <node ref="U1" pin="43" pinfunction="PB0" pintype="no_connect"/>
     </net>
-    <net code="33" name="unconnected-(U1-PB1-Pad44)">
+    <net code="34" name="unconnected-(U1-PB1-Pad44)">
       <node ref="U1" pin="44" pinfunction="PB1" pintype="no_connect"/>
     </net>
-    <net code="34" name="unconnected-(U1-PB2-Pad48)">
+    <net code="35" name="unconnected-(U1-PB2-Pad48)">
       <node ref="U1" pin="48" pinfunction="PB2" pintype="bidirectional"/>
     </net>
-    <net code="35" name="unconnected-(U1-PB5-Pad19)">
-      <node ref="U1" pin="19" pinfunction="PB5" pintype="bidirectional"/>
-    </net>
-    <net code="36" name="unconnected-(U1-PB8-Pad14)">
-      <node ref="U1" pin="14" pinfunction="PB8" pintype="bidirectional"/>
+    <net code="36" name="unconnected-(U1-PB4-Pad20)">
+      <node ref="U1" pin="20" pinfunction="PB4" pintype="bidirectional"/>
     </net>
     <net code="37" name="unconnected-(U1-PB9-Pad11)">
       <node ref="U1" pin="11" pinfunction="PB9" pintype="bidirectional"/>
@@ -1024,20 +1065,20 @@
     <net code="43" name="unconnected-(U1-PB15-Pad38)">
       <node ref="U1" pin="38" pinfunction="PB15" pintype="bidirectional"/>
     </net>
-    <net code="44" name="unconnected-(U1-PC0-Pad12)">
-      <node ref="U1" pin="12" pinfunction="PC0" pintype="bidirectional"/>
-    </net>
-    <net code="45" name="unconnected-(U1-PC1-Pad9)">
+    <net code="44" name="unconnected-(U1-PC1-Pad9)">
       <node ref="U1" pin="9" pinfunction="PC1" pintype="bidirectional"/>
     </net>
-    <net code="46" name="unconnected-(U1-PC3-Pad7)">
+    <net code="45" name="unconnected-(U1-PC3-Pad7)">
       <node ref="U1" pin="7" pinfunction="PC3" pintype="bidirectional"/>
     </net>
-    <net code="47" name="unconnected-(U1-PC4-Pad49)">
+    <net code="46" name="unconnected-(U1-PC4-Pad49)">
       <node ref="U1" pin="49" pinfunction="PC4" pintype="bidirectional"/>
     </net>
-    <net code="48" name="unconnected-(U1-PC5-Pad45)">
+    <net code="47" name="unconnected-(U1-PC5-Pad45)">
       <node ref="U1" pin="45" pinfunction="PC5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-PC6-Pad36)">
+      <node ref="U1" pin="36" pinfunction="PC6" pintype="bidirectional"/>
     </net>
     <net code="49" name="unconnected-(U1-PC7-Pad71)">
       <node ref="U1" pin="71" pinfunction="PC7" pintype="bidirectional"/>
@@ -1131,9 +1172,6 @@
     </net>
     <net code="79" name="unconnected-(U2-NC-Pad5)">
       <node ref="U2" pin="5" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="80" name="unconnected-(U3-NC-Pad4)">
-      <node ref="U3" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
 </export>

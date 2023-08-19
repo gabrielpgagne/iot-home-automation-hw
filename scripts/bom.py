@@ -23,8 +23,8 @@ def generate_bom(xml_path, csv_path):
         ns = {"xsl": "http://www.w3.org/1999/XSL/Transform"}
         
         # Load the XSL stylesheet to transform the XML file to CSV
-        #xslt_tree = ET.parse("D:/git_repos/imu-geolocator-hw/scripts/bom2grouped_csv_jlcpcb.xsl")
-        xslt_tree = ET.parse(f"{pathlib.Path().resolve()}/scripts/bom2grouped_csv_jlcpcb.xsl")
+        xslt_tree = ET.parse(f"{__file__.replace('bom.py', '')}bom2grouped_csv_jlcpcb.xsl")
+        #xslt_tree = ET.parse(f"{pathlib.Path().resolve()}/scripts/bom2grouped_csv_jlcpcb.xsl")
         transform = ET.XSLT(xslt_tree)
         
         # Apply the transformation to the XML file
