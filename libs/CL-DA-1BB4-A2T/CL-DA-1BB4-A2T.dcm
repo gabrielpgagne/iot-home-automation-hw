@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CL-DA-1BB4-A2T
+D DETECT SWITCH, SPST-NC, 0.1A, 12VDC, SMD ROHS COMPLIANT: YES
+K
+F https://www.nidec-copal-electronics.com/e/catalog/switch/cl-da.pdf
+$ENDCMP
+#
+#End Doc Library
