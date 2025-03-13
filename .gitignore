@@ -1,3 +1,6 @@
+fab*
+.DS_STORE
+*.lck
 output
 doc
 *-backups
