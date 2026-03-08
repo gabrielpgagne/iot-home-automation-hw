@@ -14,4 +14,5 @@
   (lib (name "453-00059R")(type "KiCad")(uri "${KIPRJMOD}/libs/453-00059R")(options "")(descr ""))
   (lib (name "DX07S016JA3R1500")(type "KiCad")(uri "${KIPRJMOD}/libs/DX07S016JA3R1500/footprints.pretty")(options "")(descr ""))
   (lib (name "CL-DA-1BB4-A2T")(type "KiCad")(uri "${KIPRJMOD}/libs/CL-DA-1BB4-A2T")(options "")(descr ""))
+  (lib (name "CSS-I4B20-SMT")(type "KiCad")(uri "${KIPRJMOD}/libs/CSS-I4B20-SMT")(options "")(descr ""))
 )

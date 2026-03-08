@@ -13,4 +13,5 @@
   (lib (name "CL-DA-1BB4-A2T")(type "KiCad")(uri "${KIPRJMOD}/libs/CL-DA-1BB4-A2T/CL-DA-1BB4-A2T.kicad_sym")(options "")(descr ""))
   (lib (name "453-00059R")(type "KiCad")(uri "${KIPRJMOD}/libs/453-00059R/453-00059R.kicad_sym")(options "")(descr ""))
   (lib (name "DX07S016JA3R1500")(type "KiCad")(uri "${KIPRJMOD}/libs/DX07S016JA3R1500/DX07S016JA3R1500.kicad_sym")(options "")(descr ""))
+  (lib (name "CSS-I4B20-SMT")(type "Legacy")(uri "${KIPRJMOD}/libs/CSS-I4B20-SMT/CSS-I4B20-SMT.lib")(options "")(descr ""))
 )
